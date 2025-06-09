@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 # 🍽️ Cardápio Digital - Backend
 
 Este é o backend do projeto **Cardápio Digital**, desenvolvido com **Spring Boot** e banco de dados **MySQL**. Ele fornece uma API RESTful para gerenciar itens de um cardápio (como pratos, bebidas, etc), ideal para sistemas de restaurantes, lanchonetes ou delivery.
@@ -95,6 +95,5 @@ A dependência \`spring-boot-starter-test\` já está configurada. Para rodar os
 Fernanda Kipper | Dev
 https://www.youtube.com/watch?v=lUVureR5GqI
 
-##👨‍💻 Desenvolvedor
-Feito com 💙 por [Matthz-max](https://github.com/Matthz-max)
-EOF
+## 👨‍💻 Desenvolvedor
+Feito por Matheus Serafim da silva
