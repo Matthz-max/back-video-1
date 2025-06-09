@@ -30,35 +30,7 @@ Este é o backend do projeto **Cardápio Digital**, desenvolvido com **Spring Bo
 ---
 
 ### Passos
-
-1. **Clone o repositório:**
-
-\`\`\`bash
-git clone https://github.com/Matthz-max/back-video-1.git
-cd back-video-1
-\`\`\`
-
-2. **Configure o \`application.properties\`:**
-
-No diretório \`src/main/resources\`, crie ou edite o arquivo \`application.properties\` com os dados do seu banco MySQL:
-
-\`\`\`properties
-spring.datasource.url=jdbc:mysql://localhost:3306/cardapio
-spring.datasource.username=root
-spring.datasource.password=root
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-\`\`\`
-
-3. **Execute a aplicação:**
-
-\`\`\`bash
-./mvnw spring-boot:run
-\`\`\`
-Ou dentro da IDE, rode a classe principal com \`@SpringBootApplication\`.
-
----
+ 
 
 ## 📦 Estrutura de Pastas (exemplo)
 
@@ -83,10 +55,10 @@ src
 ## 🧪 Testes
 Use Postman para testar os metodos Get e Post
 
-##Metodo Get
+#Metodo Get
 ![image](https://github.com/user-attachments/assets/249cc95c-8302-471f-b5b2-3ee4bdd0fcb5)
 
-##Metodo Post
+#Metodo Post
 ![image](https://github.com/user-attachments/assets/316d3c3c-065c-4be4-849c-076b8fb7a1e7)
 
 
