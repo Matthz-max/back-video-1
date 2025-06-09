@@ -24,6 +24,7 @@ Este é o backend do projeto **Cardápio Digital**, desenvolvido com **Spring Bo
 - [Java 21+](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
 - [Maven](https://maven.apache.org/)
 - [MySQL Server](https://dev.mysql.com/downloads/installer/)
+-[Lombok]
 - IDE como Eclipse ou IntelliJ
 
 ---
@@ -43,8 +44,8 @@ No diretório \`src/main/resources\`, crie ou edite o arquivo \`application.prop
 
 \`\`\`properties
 spring.datasource.url=jdbc:mysql://localhost:3306/cardapio
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
+spring.datasource.username=root
+spring.datasource.password=root
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
@@ -88,20 +89,12 @@ A dependência \`spring-boot-starter-test\` já está configurada. Para rodar os
 \`\`\`
 
 ---
+ 
+## Usado como referencia Video 
+1. Criando Aplicação Fullstack do Zero com Java Spring e React - Parte 1: Desenvolvimento do Backend
+Fernanda Kipper | Dev
+https://www.youtube.com/watch?v=lUVureR5GqI
 
-## ✨ Contribuições
-
-Fique à vontade para abrir issues, enviar PRs ou dar sugestões!
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo \`LICENSE\` para mais detalhes.
-
----
-
-## 👨‍💻 Desenvolvedor
-
+##👨‍💻 Desenvolvedor
 Feito com 💙 por [Matthz-max](https://github.com/Matthz-max)
 EOF
