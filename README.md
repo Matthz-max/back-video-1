@@ -9,11 +9,11 @@ Este é o backend do projeto **Cardápio Digital**, desenvolvido com **Spring Bo
 
 - ✅ Java 21
 - ✅ Spring Boot 3.5.0
-- ✅ Spring Web (API REST)
-- ✅ Spring Data JPA (Persistência)
+- ✅ Spring Web 
+- ✅ Spring Data JPA
 - ✅ MySQL Driver
-- ✅ Lombok (para reduzir boilerplate)
-- ✅ Maven (gerenciador de dependências)
+- ✅ Lombok 
+- ✅ Maven 
 
 ---
 
