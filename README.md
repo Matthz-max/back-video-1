@@ -33,6 +33,8 @@ Este é o backend do projeto **Cardápio Digital**, desenvolvido com **Spring Bo
  
 
 ## 📦 Estrutura de Pastas 
+
+```
 src
 ├── main
 │   ├── java
@@ -46,7 +48,7 @@ src
 │       ├── application.properties
 │       └── static/
 └── test
-
+```
 
 ## 🧪 Testes
 Use Postman para testar os metodos Get e Post
